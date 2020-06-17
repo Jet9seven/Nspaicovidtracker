@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-bottom: 5px;
+}
+/**
+to make the chart a litle bit bigger in mobile devices.
+*/
+@media (max-width: 770px){
+    .container{
+        width:100%;
+    }
+}
